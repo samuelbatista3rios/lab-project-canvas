@@ -4,6 +4,7 @@
   body { 
       background-color: black;
       background-image: url(https://nerdhits.com.br/wp-content/uploads/2020/06/Konohagakure.jpg);
+      /**/
       background-repeat: no-repeat;
       background-size: cover;
       background-position:center ;
@@ -18,5 +19,6 @@
       border: 1px solid red;
   }
 #container {
+    margin-top: 50px;
     display: flex;
 }
