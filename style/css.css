@@ -1,7 +1,11 @@
 .logo-img {
     width: 350px;
+    background-color: black;
   }
   body { 
+        padding: 0;
+        text-align: center;
+    
       background-color: black;
       background-image: url(https://nerdhits.com.br/wp-content/uploads/2020/06/Konohagakure.jpg);
       /**/
@@ -15,10 +19,22 @@
       justify-content: center;
       align-items: center;
   }
+  .game-intro p { 
+      margin-bottom: 50px;
+
+}
+   
   canvas {
       border: 1px solid red;
   }
 #container {
     margin-top: 50px;
     display: flex;
+    background-color: orange;
+}
+#start-button {
+    text-emphasis: 2em;
+    margin: 120px auto;
+    display: flex;
+    text-align: center;
 }
