@@ -342,17 +342,28 @@ window.addEventListener("load", () => {
 
     game.updateGame();
 
-    document.addEventListener("keydown", (event) => {
-      if (jumpCount <= 2 && jumpCount > 0) {
-        console.log("Datebayo!!");
-        if (event.key === "w") {
+    if (window.innerWidth < 400) { // if pra detectar telas pequenas, tipo de celular
+      document.addEventListener('touchstart', (event) => {
+        if  (event.key === "touchstart") {
           game.playerImgRun1.jump(18);
           jumpCount--;
           jumpSound.play();
+       // aqui dentro vc chamaria a funcao de pular que vc ja chama hoje
+     }
+    
+      })
+    }
+        else {
+          if (event.key === "w") {
+            game.playerImgRun1.jump(18);
+            jumpCount--;
+            jumpSound.play();
+          }
         }
-      }
-    });
-  }
+      
+        
+      };
+
 
   btnStart.addEventListener("click", () => {
     if (gaming === false) {
