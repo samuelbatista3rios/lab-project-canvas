@@ -34,11 +34,11 @@ enemiImg.src = "./imagens/WhatsApp-Image-2021-04-06-at-13.31.png";
 
 const gameSound = new Audio();
 gameSound.src = "./sound/Naruto Theme - The Raising Fighting Spirit.mp3";
-gameSound.volume = 0.7;
+gameSound.volume = 0.4;
 
 const jumpSound = new Audio();
 jumpSound.src = "./sound/naruto-and-sasuke-screaming-for-one-minute (1).mp3";
-jumpSound.volume = 0.5;
+jumpSound.volume = 0.3;
 
 let createdObstacles = [];
 
