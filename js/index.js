@@ -341,8 +341,9 @@ window.addEventListener("load", () => {
     gameSound.loop = true;
 
     game.updateGame();
-
       
+
+    
     document.addEventListener("keydown", (event) => {
       if (jumpCount <= 2 && jumpCount > 0) {
         console.log("Datebayo!!");
@@ -358,8 +359,7 @@ window.addEventListener("load", () => {
   btnStart.addEventListener("click", () => {
     if (gaming === false) {
       startGame();
-      btnStart.blur(); // blur tira o foco do botão start
-    } else {
+      btnStart.blur(); 
       window.location.reload();
       console.log("Bakayarō! Konoyarō!");
     }
