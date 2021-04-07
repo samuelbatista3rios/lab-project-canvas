@@ -343,7 +343,7 @@ window.addEventListener("load", () => {
     game.updateGame();
       
 
-    
+    //controlar o naruto
     document.addEventListener("keydown", (event) => {
       if (jumpCount <= 2 && jumpCount > 0) {
         console.log("Datebayo!!");
