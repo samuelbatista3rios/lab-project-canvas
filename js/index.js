@@ -354,6 +354,7 @@ window.addEventListener("load", () => {
       })
     }
         else {
+          document.addEventListener('keydown', (event) => {
           if (event.key === "w") {
             game.playerImgRun1.jump(18);
             jumpCount--;
