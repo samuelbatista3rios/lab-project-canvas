@@ -6,31 +6,31 @@ const backgroundImg = new Image();
 backgroundImg.src = "/imagens/fundo.jpg";
 
 const playerImgRun1 = new Image();
-playerImgRun1.src = "/imagens/Untitled-1.jpeg";
+playerImgRun1.src = "/imagens/Untitled-1.png";
 const playerImgRun2 = new Image();
-playerImgRun2.src = "/imagens/Untitled-2.jpeg";
+playerImgRun2.src = "/imagens/Untitled-2.png";
 const playerImgRun3 = new Image();
-playerImgRun3.src = "/imagens/Untitled-3 (2).jpeg";
+playerImgRun3.src = "/imagens/Untitled-3-_2_.png";
 const playerImgRun4 = new Image();
-playerImgRun4.src = "/imagens/Untitled-4.jpeg";
+playerImgRun4.src = "/imagens//Untitled-4.png";
 const playerImgRun5 = new Image();
-playerImgRun5.src = "/imagens/Untitled-1.jpeg";
+playerImgRun5.src = "/imagens/Untitled-1.png";
 const playerImgRun6 = new Image();
-playerImgRun6.src = "/imagens/Untitled-2.jpeg";
+playerImgRun6.src = "/imagens/Untitled-2.png";
 const playerImgRun7 = new Image();
-playerImgRun7.src = "/imagens/Untitled-3 (2).jpeg";
+playerImgRun7.src = "/imagens/Untitled-3-_2_.png";
 const playerImgRun8 = new Image();
-playerImgRun8.src = "/imagens/Untitled-4.jpeg";
+playerImgRun8.src = "/imagens//Untitled-4.png";
 
 const playerJump1 = new Image();
-playerJump1.src = "/imagens/Untitled-3 (2).jpeg";
+playerJump1.src = "/imagens/Untitled-3-_2_.png";
 const playerJump2 = new Image();
-playerJump2.src = "/imagens/Untitled-3 (2).jpeg";
+playerJump2.src = "/imagens/jutsu-substituição.png";
 const playerJump3 = new Image();
-playerJump3.src = "/imagens/Untitled-3 (2).jpeg";
+playerJump3.src = "/imagens/Untitled-3-_2_.png";
 
 const enemiImg = new Image();
-enemiImg.src = "/imagens/WhatsApp Image 2021-04-06 at 13.31.34.jpeg";
+enemiImg.src = "/imagens/WhatsApp-Image-2021-04-06-at-13.31.png";
 
 const gameSound = new Audio();
 gameSound.src = "/sound/Naruto Theme - The Raising Fighting Spirit.mp3";
@@ -57,7 +57,7 @@ function createObstacles() {
   let random = Math.floor(Math.random() * 6) + 1;
   if (frames % (random * 70) === 0) {
     createdObstacles.push(
-      new Obstacle(canvas.width, canvas.height - 96, 70, 70)
+      new Obstacle(canvas.width, canvas.height - 96, 90, 80)
     );
   }
 }
