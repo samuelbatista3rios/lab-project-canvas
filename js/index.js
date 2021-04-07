@@ -348,7 +348,7 @@ window.addEventListener("load", () => {
           game.playerImgRun1.jump(18);
           jumpCount--;
           jumpSound.play();
-       // aqui dentro vc chamaria a funcao de pular que vc ja chama hoje
+       // aqui dentro vc chamaria a funcao de pular
      }
     
       })
@@ -360,7 +360,6 @@ window.addEventListener("load", () => {
             jumpSound.play();
           }
         }
-      
         
       };
 
