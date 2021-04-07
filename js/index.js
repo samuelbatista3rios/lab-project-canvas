@@ -344,14 +344,16 @@ window.addEventListener("load", () => {
 
     if (window.innerWidth < 400) { // if pra detectar telas pequenas, tipo de celular
       document.addEventListener('touchstart', (event) => {
+        if (jumpCount <= 2 && jumpCount > 0){
+          console.log("");
         if  (event.key === "touchstart") {
           game.playerImgRun1.jump(18);
           jumpCount--;
           jumpSound.play();
        // aqui dentro vc chamaria a funcao de pular
-     }
-    
-      })
+         }
+        }
+      });
     }
         else {
           document.addEventListener('keydown', (event) => {
@@ -360,11 +362,10 @@ window.addEventListener("load", () => {
             jumpCount--;
             jumpSound.play();
           }
-        }
+        });
+      }
+
         
-      };
-
-
   btnStart.addEventListener("click", () => {
     if (gaming === false) {
       startGame();
@@ -374,4 +375,4 @@ window.addEventListener("load", () => {
       console.log("Bakayarō! Konoyarō!");
     }
   });
-});
+}});
