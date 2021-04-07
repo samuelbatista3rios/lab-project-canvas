@@ -3,41 +3,41 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
 const backgroundImg = new Image();
-backgroundImg.src = "/imagens/fundo.jpg";
+backgroundImg.src = "./imagens/fundo.jpg";
 
 const playerImgRun1 = new Image();
-playerImgRun1.src = "/imagens/Untitled-1.png";
+playerImgRun1.src = "./imagens/Untitled-1.png";
 const playerImgRun2 = new Image();
-playerImgRun2.src = "/imagens/Untitled-2.png";
+playerImgRun2.src = "./imagens/Untitled-2.png";
 const playerImgRun3 = new Image();
-playerImgRun3.src = "/imagens/Untitled-3-_2_.png";
+playerImgRun3.src = "./imagens/Untitled-3-_2_.png";
 const playerImgRun4 = new Image();
-playerImgRun4.src = "/imagens//Untitled-4.png";
+playerImgRun4.src = "./imagens/Untitled-4.png";
 const playerImgRun5 = new Image();
-playerImgRun5.src = "/imagens/Untitled-1.png";
+playerImgRun5.src = "./imagens/Untitled-1.png";
 const playerImgRun6 = new Image();
-playerImgRun6.src = "/imagens/Untitled-2.png";
+playerImgRun6.src = "./imagens/Untitled-2.png";
 const playerImgRun7 = new Image();
-playerImgRun7.src = "/imagens/Untitled-3-_2_.png";
+playerImgRun7.src = "./imagens/Untitled-3-_2_.png";
 const playerImgRun8 = new Image();
-playerImgRun8.src = "/imagens//Untitled-4.png";
+playerImgRun8.src = "./imagens/Untitled-4.png";
 
 const playerJump1 = new Image();
-playerJump1.src = "/imagens/Untitled-3-_2_.png";
+playerJump1.src = "./imagens/Untitled-3-_2_.png";
 const playerJump2 = new Image();
-playerJump2.src = "/imagens/jutsu-substituição.png";
+playerJump2.src = "./imagens/jutsu-substituição.png";
 const playerJump3 = new Image();
-playerJump3.src = "/imagens/Untitled-3-_2_.png";
+playerJump3.src = "./imagens/Untitled-3-_2_.png";
 
 const enemiImg = new Image();
-enemiImg.src = "/imagens/WhatsApp-Image-2021-04-06-at-13.31.png";
+enemiImg.src = "./imagens/WhatsApp-Image-2021-04-06-at-13.31.png";
 
 const gameSound = new Audio();
-gameSound.src = "/sound/Naruto Theme - The Raising Fighting Spirit.mp3";
+gameSound.src = "./sound/Naruto Theme - The Raising Fighting Spirit.mp3";
 gameSound.volume = 0.7;
 
 const jumpSound = new Audio();
-jumpSound.src = "/sound/naruto-and-sasuke-screaming-for-one-minute (1).mp3";
+jumpSound.src = "./sound/naruto-and-sasuke-screaming-for-one-minute (1).mp3";
 jumpSound.volume = 0.5;
 
 let createdObstacles = [];
