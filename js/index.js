@@ -360,7 +360,8 @@ window.addEventListener("load", () => {
     if (gaming === false) {
       startGame();
       btnStart.blur(); 
-      window.location.reload();
+    } else{
+      window.location.reload()
       console.log("Bakayarō! Konoyarō!");
     }
   });
