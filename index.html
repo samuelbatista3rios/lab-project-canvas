@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naruto Race</title>
@@ -8,22 +12,29 @@
 </head>
 <body>
   <div id="container">
+     
     <div class="game-intro">
         <img src="./imagens/naruto-logo.png" alt="" class="logo-img" />
         <br />
 
-        <div class = "button">
-        <button id="start-button">StartGame</button>
-        </div>
+       
 
         <img src="./imagens/naruto-pagina.png" alt="" class="pagina-img" width="400px">
+        
       </div>
-  
+      
       <div id="game-board">
-        <canvas id="canvas" width="700" height="500"></canvas>
+        
+        <canvas id="canvas" width="700" height="395">
+          
+        </canvas>
+        <div class = "button">
+          <h3 class="jump">Press W to Jump!</h3>
+          <button id="start-button">Start Game</button>
+          </div>
       </div>
+      
   </div>
-  <p class="use-to">Use W to shinobi!!</p>
       <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
